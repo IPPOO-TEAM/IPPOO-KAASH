@@ -1,0 +1,176 @@
+2026-06-21T12:55:25.446Z	Initializing build environment...
+2026-06-21T12:55:25.446Z	Initializing build environment...
+2026-06-21T12:55:28.265Z	Success: Finished initializing build environment
+2026-06-21T12:55:29.309Z	Cloning repository...
+2026-06-21T12:55:31.928Z	Restoring from dependencies cache
+2026-06-21T12:55:31.929Z	Restoring from build output cache
+2026-06-21T12:55:31.932Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2026-06-21T12:55:32.049Z	Installing project dependencies: pnpm install --frozen-lockfile
+2026-06-21T12:55:33.552Z	Lockfile is up to date, resolution step is skipped
+2026-06-21T12:55:33.589Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-06-21T12:55:33.642Z	Packages: +294
+2026-06-21T12:55:33.643Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-06-21T12:55:34.593Z	Progress: resolved 294, reused 0, downloaded 66, added 58
+2026-06-21T12:55:35.594Z	Progress: resolved 294, reused 0, downloaded 67, added 59
+2026-06-21T12:55:37.512Z	Progress: resolved 294, reused 0, downloaded 68, added 59
+2026-06-21T12:55:38.513Z	Progress: resolved 294, reused 0, downloaded 83, added 67
+2026-06-21T12:55:39.514Z	Progress: resolved 294, reused 0, downloaded 173, added 158
+2026-06-21T12:55:40.514Z	Progress: resolved 294, reused 0, downloaded 204, added 189
+2026-06-21T12:55:41.344Z	Progress: resolved 294, reused 0, downloaded 294, added 294, done
+2026-06-21T12:55:41.444Z	.../node_modules/@tailwindcss/oxide postinstall$ node ./scripts/install.js
+2026-06-21T12:55:41.461Z	.../esbuild@0.25.10/node_modules/esbuild postinstall$ node install.js
+2026-06-21T12:55:41.512Z	.../esbuild@0.25.10/node_modules/esbuild postinstall: Done
+2026-06-21T12:55:41.576Z	.../node_modules/@tailwindcss/oxide postinstall: Done
+2026-06-21T12:55:41.649Z	
+2026-06-21T12:55:41.650Z	dependencies:
+2026-06-21T12:55:41.651Z	+ @emotion/react 11.14.0
+2026-06-21T12:55:41.651Z	+ @emotion/styled 11.14.1
+2026-06-21T12:55:41.651Z	+ @mui/icons-material 7.3.5
+2026-06-21T12:55:41.651Z	+ @mui/material 7.3.5
+2026-06-21T12:55:41.655Z	+ @popperjs/core 2.11.8
+2026-06-21T12:55:41.655Z	+ @radix-ui/react-accordion 1.2.3
+2026-06-21T12:55:41.655Z	+ @radix-ui/react-alert-dialog 1.1.6
+2026-06-21T12:55:41.655Z	+ @radix-ui/react-aspect-ratio 1.1.2
+2026-06-21T12:55:41.655Z	+ @radix-ui/react-avatar 1.1.3
+2026-06-21T12:55:41.655Z	+ @radix-ui/react-checkbox 1.1.4
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-collapsible 1.1.3
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-context-menu 2.2.6
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-dialog 1.1.6
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-dropdown-menu 2.1.6
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-hover-card 1.1.6
+2026-06-21T12:55:41.656Z	+ @radix-ui/react-label 2.1.2
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-menubar 1.1.6
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-navigation-menu 1.2.5
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-popover 1.1.6
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-progress 1.1.2
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-radio-group 1.2.3
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-scroll-area 1.2.3
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-select 2.1.6
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-separator 1.1.2
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-slider 1.2.3
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-slot 1.1.2
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-switch 1.1.3
+2026-06-21T12:55:41.657Z	+ @radix-ui/react-tabs 1.1.3
+2026-06-21T12:55:41.658Z	+ @radix-ui/react-toggle 1.1.2
+2026-06-21T12:55:41.658Z	+ @radix-ui/react-toggle-group 1.1.2
+2026-06-21T12:55:41.658Z	+ @radix-ui/react-tooltip 1.1.8
+2026-06-21T12:55:41.658Z	+ class-variance-authority 0.7.1
+2026-06-21T12:55:41.658Z	+ clsx 2.1.1
+2026-06-21T12:55:41.658Z	+ cmdk 1.1.1
+2026-06-21T12:55:41.658Z	+ date-fns 3.6.0
+2026-06-21T12:55:41.658Z	+ embla-carousel-react 8.6.0
+2026-06-21T12:55:41.658Z	+ input-otp 1.4.2
+2026-06-21T12:55:41.658Z	+ jsqr 1.4.0
+2026-06-21T12:55:41.658Z	+ lucide-react 0.487.0
+2026-06-21T12:55:41.658Z	+ motion 12.23.24
+2026-06-21T12:55:41.659Z	+ next-themes 0.4.6
+2026-06-21T12:55:41.659Z	+ qrcode.react 4.2.0
+2026-06-21T12:55:41.659Z	+ react 18.3.1
+2026-06-21T12:55:41.659Z	+ react-day-picker 8.10.1
+2026-06-21T12:55:41.659Z	+ react-dnd 16.0.1
+2026-06-21T12:55:41.659Z	+ react-dnd-html5-backend 16.0.1
+2026-06-21T12:55:41.659Z	+ react-dom 18.3.1
+2026-06-21T12:55:41.659Z	+ react-hook-form 7.55.0
+2026-06-21T12:55:41.659Z	+ react-popper 2.3.0
+2026-06-21T12:55:41.659Z	+ react-resizable-panels 2.1.7
+2026-06-21T12:55:41.659Z	+ react-responsive-masonry 2.7.1
+2026-06-21T12:55:41.660Z	+ react-router 7.13.0
+2026-06-21T12:55:41.660Z	+ react-slick 0.31.0
+2026-06-21T12:55:41.660Z	+ recharts 2.15.2
+2026-06-21T12:55:41.660Z	+ slick-carousel 1.8.1
+2026-06-21T12:55:41.660Z	+ sonner 2.0.3
+2026-06-21T12:55:41.660Z	+ tailwind-merge 3.2.0
+2026-06-21T12:55:41.660Z	+ tw-animate-css 1.3.8
+2026-06-21T12:55:41.660Z	+ vaul 1.1.2
+2026-06-21T12:55:41.660Z	
+2026-06-21T12:55:41.660Z	devDependencies:
+2026-06-21T12:55:41.660Z	+ @tailwindcss/vite 4.1.12
+2026-06-21T12:55:41.660Z	+ @vitejs/plugin-react 4.7.0
+2026-06-21T12:55:41.660Z	+ tailwindcss 4.1.12
+2026-06-21T12:55:41.661Z	+ vite 6.3.5
+2026-06-21T12:55:41.661Z	
+2026-06-21T12:55:41.670Z	Done in 8.7s
+2026-06-21T12:55:41.848Z	Executing user build command: pnpm run build
+2026-06-21T12:55:42.224Z	
+2026-06-21T12:55:42.224Z	> @figma/my-make-file@0.0.1 build /opt/buildhome/repo
+2026-06-21T12:55:42.225Z	> vite build
+2026-06-21T12:55:42.225Z	
+2026-06-21T12:55:42.595Z	vite v6.3.5 building for production...
+2026-06-21T12:55:42.676Z	transforming...
+2026-06-21T12:55:49.018Z	✓ 2713 modules transformed.
+2026-06-21T12:55:49.482Z	rendering chunks...
+2026-06-21T12:55:49.898Z	computing gzip size...
+2026-06-21T12:55:49.930Z	dist/index.html                                                                                                                                                                                                                                      0.88 kB │ gzip:   0.43 kB
+2026-06-21T12:55:49.931Z	dist/assets/slick-BlzDm7g2.svg                                                                                                                                                                                                                       2.15 kB │ gzip:   0.91 kB
+2026-06-21T12:55:49.931Z	dist/assets/ajax-loader-BcnMEykj.gif                                                                                                                                                                                                                 4.18 kB
+2026-06-21T12:55:49.933Z	dist/assets/images__9_-WSktNBbd.png                                                                                                                                                                                                                  4.96 kB
+2026-06-21T12:55:49.933Z	dist/assets/images_-_2026-04-10T162222.523__2_-CulLjRg-.jpeg                                                                                                                                                                                        24.29 kB
+2026-06-21T12:55:49.933Z	dist/assets/images_-_2026-04-10T163945.322-4v9izeG4.jpeg                                                                                                                                                                                            37.28 kB
+2026-06-21T12:55:49.934Z	dist/assets/photo_11_2026-05-08_00-42-28-Cy6MtOrX.jpg                                                                                                                                                                                               41.14 kB
+2026-06-21T12:55:49.934Z	dist/assets/photo_6_2026-05-08_00-42-28-CQXPhatF.jpg                                                                                                                                                                                                46.29 kB
+2026-06-21T12:55:49.934Z	dist/assets/t_l_chargement_-_2026-02-09T204353.701-BsAmr0_T.jpg                                                                                                                                                                                     51.45 kB
+2026-06-21T12:55:49.934Z	dist/assets/Plan_de_travail72-DGqOx5sR.png                                                                                                                                                                                                          73.32 kB
+2026-06-21T12:55:49.934Z	dist/assets/Plan_de_travail63-DOXjuXc7.png                                                                                                                                                                                                          82.18 kB
+2026-06-21T12:55:49.935Z	dist/assets/african-woman-successful-small-business-600nw-2745247757-mpxobvGM.jpg                                                                                                                                                                   97.36 kB
+2026-06-21T12:55:49.935Z	dist/assets/Closer_Africa-Europe_Collaboration_Needed_To_Deliver_Food_And_Nutrition_Security_Roadmap__Says_Leading_Research_Body-A1V998x4.jpg                                                                                                      101.86 kB
+2026-06-21T12:55:49.935Z	dist/assets/trois-femmes-africaines-choisissent-vetements-lors-journee-magasinage_926199-2565282-uxHHHU5f.jpg                                                                                                                                      115.35 kB
+2026-06-21T12:55:49.935Z	dist/assets/photo_12_2026-04-22_16-08-41-CflmaHYA.jpg                                                                                                                                                                                              115.75 kB
+2026-06-21T12:55:49.935Z	dist/assets/SMS-PRO__2_-DQAv3TdF.jpg                                                                                                                                                                                                               155.24 kB
+2026-06-21T12:55:49.935Z	dist/assets/photo_26_2026-05-03_18-43-34-DjnqeNod.jpg                                                                                                                                                                                              157.49 kB
+2026-06-21T12:55:49.935Z	dist/assets/ecobank_ci_0-BLFglCqK.jpg                                                                                                                                                                                                              178.86 kB
+2026-06-21T12:55:49.935Z	dist/assets/Black_Girls-D_aG4QIE.jpg                                                                                                                                                                                                               192.88 kB
+2026-06-21T12:55:49.936Z	dist/assets/afrique-coiffeuses-ambassadrices-sante-mentale-32825-y7GnKpKz.png                                                                                                                                                                      195.01 kB
+2026-06-21T12:55:49.936Z	dist/assets/specialiste-bipoc-dans-service-automobile-utilisant-outils-mecaniques-professionnels-pour-reparer-systeme-allumage-casse-specialiste-agree-dans-reparation-automobiles-garage-garantissant-performances-automobiles-o-0b3jLC-u.png     369.48 kB
+2026-06-21T12:55:49.938Z	dist/assets/68b80553772293aeca0e6de9_01_1-6PsfNdRZ.jpg                                                                                                                                                                                             454.44 kB
+2026-06-21T12:55:49.938Z	dist/assets/deux-femmes-couturieres-africaines-ont-concu-nouvelle-robe-rouge-mannequin-au-bureau-tailleur_627829-BcfZZqnW.png                                                                                                                      456.75 kB
+2026-06-21T12:55:49.939Z	dist/assets/SLIDER_ASSO_TCHE-03__2_-BdhPh5o0.jpeg                                                                                                                                                                                                  573.70 kB
+2026-06-21T12:55:49.939Z	dist/assets/IPPOO_-_Shop___Troc___Agro_-_Alimentaire___Bien-_tre_23-CdZPmsdV.png                                                                                                                                                                28,681.75 kB
+2026-06-21T12:55:49.939Z	dist/assets/index-BRJHgwGi.css                                                                                                                                                                                                                     123.31 kB │ gzip:  21.92 kB
+2026-06-21T12:55:49.939Z	dist/assets/search-BnOW8y32.js                                                                                                                                                                                                                       0.35 kB │ gzip:   0.27 kB
+2026-06-21T12:55:49.939Z	dist/assets/copy-CWY759lB.js                                                                                                                                                                                                                         0.41 kB │ gzip:   0.31 kB
+2026-06-21T12:55:49.940Z	dist/assets/zap-le-I3V3R.js                                                                                                                                                                                                                          0.44 kB │ gzip:   0.31 kB
+2026-06-21T12:55:49.940Z	dist/assets/send-XXv1-OZg.js                                                                                                                                                                                                                         0.46 kB │ gzip:   0.34 kB
+2026-06-21T12:55:49.941Z	dist/assets/validation-BDJjzHJH.js                                                                                                                                                                                                                   0.46 kB │ gzip:   0.30 kB
+2026-06-21T12:55:49.941Z	dist/assets/hash-B7oIglFO.js                                                                                                                                                                                                                         0.47 kB │ gzip:   0.30 kB
+2026-06-21T12:55:49.943Z	dist/assets/share-2-DlgQf2HZ.js                                                                                                                                                                                                                      0.53 kB │ gzip:   0.34 kB
+2026-06-21T12:55:49.947Z	dist/assets/page-hero-dmF7vg_C.js                                                                                                                                                                                                                    1.32 kB │ gzip:   0.67 kB
+2026-06-21T12:55:49.947Z	dist/assets/order-pages-BrAZgrAA.js                                                                                                                                                                                                                  5.39 kB │ gzip:   1.54 kB
+2026-06-21T12:55:49.947Z	dist/assets/document-pages-CesuMdAD.js                                                                                                                                                                                                              10.48 kB │ gzip:   3.21 kB
+2026-06-21T12:55:49.948Z	dist/assets/receive-pages-kL40gX4l.js                                                                                                                                                                                                               10.58 kB │ gzip:   3.16 kB
+2026-06-21T12:55:49.948Z	dist/assets/shop-pages-CP6GxVSV.js                                                                                                                                                                                                                  11.61 kB │ gzip:   3.47 kB
+2026-06-21T12:55:49.948Z	dist/assets/transaction-pages-B9WoUr7J.js                                                                                                                                                                                                           14.44 kB │ gzip:   3.66 kB
+2026-06-21T12:55:49.948Z	dist/assets/wallet-pages-sxvCVuXN.js                                                                                                                                                                                                                15.17 kB │ gzip:   3.33 kB
+2026-06-21T12:55:49.948Z	dist/assets/payment-pages-BiM8jYXV.js                                                                                                                                                                                                               22.10 kB │ gzip:   5.12 kB
+2026-06-21T12:55:49.948Z	dist/assets/settings-pages-Bl7xqpcs.js                                                                                                                                                                                                              23.84 kB │ gzip:   5.60 kB
+2026-06-21T12:55:49.948Z	dist/assets/finance-pages-CQjIp3Bu.js                                                                                                                                                                                                               24.34 kB │ gzip:   4.64 kB
+2026-06-21T12:55:49.948Z	dist/assets/qr-pages-C4dbkkkv.js                                                                                                                                                                                                                   180.54 kB │ gzip:  60.17 kB
+2026-06-21T12:55:49.948Z	dist/assets/statement-pages-muVnzbHc.js                                                                                                                                                                                                            410.92 kB │ gzip: 111.63 kB
+2026-06-21T12:55:49.948Z	dist/assets/index-Bo7GnJGR.js                                                                                                                                                                                                                      603.23 kB │ gzip: 186.08 kB
+2026-06-21T12:55:49.951Z	✓ built in 7.30s
+2026-06-21T12:55:49.951Z	
+2026-06-21T12:55:49.951Z	(!) Some chunks are larger than 500 kB after minification. Consider:
+2026-06-21T12:55:49.951Z	- Using dynamic import() to code-split the application
+2026-06-21T12:55:49.951Z	- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2026-06-21T12:55:49.952Z	- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2026-06-21T12:55:50.038Z	Success: Build command completed
+2026-06-21T12:55:50.368Z	Executing user deploy command: npx wrangler deploy
+2026-06-21T12:55:52.362Z	npm warn exec The following package was not found and will be installed: wrangler@4.103.0
+2026-06-21T12:56:00.255Z	
+2026-06-21T12:56:00.255Z	 ⛅️ wrangler 4.103.0
+2026-06-21T12:56:00.255Z	────────────────────
+2026-06-21T12:56:00.390Z	▲ [WARNING] Failed to match Worker name. Your config file is using the Worker name "ippoo-kaash", but the CI system expected "caash". Overriding using the CI provided Worker name. Workers Builds connected builds will attempt to open a pull request to resolve this config name mismatch.
+2026-06-21T12:56:00.390Z	
+2026-06-21T12:56:00.390Z	
+2026-06-21T12:56:01.122Z	🌀 Building list of assets...
+2026-06-21T12:56:01.123Z	✨ Read 47 files from the assets directory /opt/buildhome/repo/dist
+2026-06-21T12:56:01.144Z	
+2026-06-21T12:56:01.145Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-06-21T12:56:01.145Z	
+2026-06-21T12:56:01.148Z	✘ [ERROR] Asset too large.
+2026-06-21T12:56:01.148Z	
+2026-06-21T12:56:01.148Z	  Cloudflare Workers supports assets with sizes of up to 25 MiB. We found a file /opt/buildhome/repo/dist/assets/IPPOO_-_Shop___Troc___Agro_-_Alimentaire___Bien-_tre_23-CdZPmsdV.png with a size of 27.4 MiB.
+2026-06-21T12:56:01.148Z	  Ensure all assets in your assets directory "/opt/buildhome/repo/dist" conform with the Workers maximum size requirement.
+2026-06-21T12:56:01.148Z	
+2026-06-21T12:56:01.148Z	
+2026-06-21T12:56:01.217Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-06-21_12-55-59_855.log"
+2026-06-21T12:56:01.320Z	Failed: error occurred while running deploy command
