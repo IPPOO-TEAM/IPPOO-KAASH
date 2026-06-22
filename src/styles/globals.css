@@ -1,0 +1,27 @@
+/* Layout: fixed header + bottom nav with safe-area awareness */
+.app-header {
+  height: calc(3.5rem + env(safe-area-inset-top));
+  padding-top: env(safe-area-inset-top);
+}
+.app-main {
+  padding-top: calc(3.5rem + env(safe-area-inset-top));
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+@media (min-width: 1024px) {
+  .app-header {
+    height: calc(4rem + env(safe-area-inset-top));
+  }
+  .app-main {
+    padding-top: calc(4rem + env(safe-area-inset-top));
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* PWA / safe area: extend brand color into iOS status bar inset */
+html {
+  background-color: #14B85A;
+}
+body {
+  background-color: #F8FAFC;
+  min-height: 100vh;
+}
